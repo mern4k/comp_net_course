@@ -1,0 +1,32 @@
+HTTP/1.1 200 OK
+Date: Mon, 20 Apr 2026 16:14:26 GMT
+Content-Type: application/json
+Content-Length: 942
+Connection: close
+Server: gunicorn/19.9.0
+Last-Modified: Mon, 20 Apr 2026 16:14:26 GMT
+ETag: a6ef470e03f84890bc10ec86551c5829
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+
+{
+  "args": {}, 
+  "headers": {
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7", 
+    "Accept-Encoding": "gzip, deflate, br, zstd", 
+    "Accept-Language": "ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7", 
+    "Host": "httpbin.org", 
+    "Sec-Ch-Ua": "\"Google Chrome\";v=\"147\", \"Not.A/Brand\";v=\"8\", \"Chromium\";v=\"147\"", 
+    "Sec-Ch-Ua-Mobile": "?0", 
+    "Sec-Ch-Ua-Platform": "\"Windows\"", 
+    "Sec-Fetch-Dest": "document", 
+    "Sec-Fetch-Mode": "navigate", 
+    "Sec-Fetch-Site": "none", 
+    "Sec-Fetch-User": "?1", 
+    "Upgrade-Insecure-Requests": "1", 
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36", 
+    "X-Amzn-Trace-Id": "Root=1-69e650e2-637ceca5370b5b270f9df300"
+  }, 
+  "origin": "87.248.238.33", 
+  "url": "http://httpbin.org/cache"
+}

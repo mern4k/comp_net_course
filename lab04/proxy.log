@@ -1,0 +1,18 @@
+- 2026-04-20 19:13:36,980 Proxy server is listening on port 12000...
+- 2026-04-20 19:13:57,873 Received connection from ('127.0.0.1', 59344)
+- 2026-04-20 19:13:57,874 Received connection from ('127.0.0.1', 59354)
+- 2026-04-20 19:13:57,874 Received GET request for /httpbin.org/bytes/100
+- 2026-04-20 19:13:57,874 Blocked request for /httpbin.org/bytes/100
+- 2026-04-20 19:13:58,128 Received connection from ('127.0.0.1', 59364)
+- 2026-04-20 19:14:15,386 Received GET request for /www.google.com
+- 2026-04-20 19:14:15,387 Blocked request for /www.google.com
+- 2026-04-20 19:14:25,725 Received GET request for /httpbin.org/cache
+- 2026-04-20 19:14:25,726 Cache miss for /httpbin.org/cache
+- 2026-04-20 19:14:26,035 Received connection from ('127.0.0.1', 39114)
+- 2026-04-20 19:14:26,205 Status: b'HTTP/1.1 200 OK'
+- 2026-04-20 19:14:26,205 Resource not in cache, loading from response
+- 2026-04-20 19:15:14,907 Received GET request for /httpbin.org/cache
+- 2026-04-20 19:15:14,908 Cache hit for /httpbin.org/cache
+- 2026-04-20 19:15:15,208 Received connection from ('127.0.0.1', 52736)
+- 2026-04-20 19:15:15,374 Status: b'HTTP/1.1 304 NOT MODIFIED'
+- 2026-04-20 19:15:15,375 Resource not modified, loading from cache
